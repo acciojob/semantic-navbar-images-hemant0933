@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+*{
+	margin:0;
+	padding:0;
+}
+nav{
+	display:flex;
+	justify-content:center;
+}
+ul{
+	display:flex;
+	justify-content:space-between;
+}
+ul li{
+	list-style:none;
+	padding:10px;
+}
+a{
+	text-decoration:none;
+	font-size:20px;
+	color:black;
+	font-style:sans-serif;
+/* 	font-weight:400; */
+}
